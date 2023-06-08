@@ -14,6 +14,7 @@ const DateWidget = () => {
     };
   }, []);
   const formatedDate = format(date, "dd.MM.yy HH:mm");
+
   return <div className="time">{formatedDate} Касса #1</div>;
 };
 
