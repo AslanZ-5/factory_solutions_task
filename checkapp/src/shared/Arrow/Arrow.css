@@ -1,0 +1,20 @@
+.arrow {
+  position: absolute;
+  right: 68px;
+  transform: translateY(280px);
+}
+.arrow:hover {
+  animation: arrow_move 1s;
+}
+
+@keyframes arrow_move {
+  0% {
+    transform: translateY(280px);
+  }
+  50% {
+    transform: translateY(230px);
+  }
+  100% {
+    transform: translateY(280px);
+  }
+}

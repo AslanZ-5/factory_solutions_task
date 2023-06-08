@@ -1,0 +1,10 @@
+.call_btn {
+  width: 180px;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px 0px #34343e3d;
+}
+.call_btn__text {
+  margin-top: auto;
+  margin-bottom: auto;
+}
